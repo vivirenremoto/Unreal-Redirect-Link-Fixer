@@ -1,0 +1,17 @@
+{  
+  "name": "Unreal Redirect Link Fixer",
+  "description": "Remove the warning redirect from the marketplace links",
+  "version": "0.1",
+  "permissions": ["https://www.unrealengine.com/marketplace/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.unrealengine.com/marketplace/*"],
+      "js": ["general.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "manifest_version": 2
+}
