@@ -10,4 +10,5 @@
 8. Done! You can click an external link from any asset without the warning redirect
 
 Note: If the step 7 fails, maybe you need to go inside:
+
 My documents/Unreal-Redirect-Link-Fixer-main/Unreal-Redirect-Link-Fixer-main
